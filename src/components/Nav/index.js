@@ -7,30 +7,30 @@ function Nav(props) {
     } = props;
 
     return (
-        <header className="flex-row">
-            <h2>
+        <header className="row">
+            <h2 className="header-title">
                 <a href="/">
                     <span>David Briagas</span>
                 </a>
             </h2>
-            <nav>
-                <ul className="flex-row">
-                    <li className="mx-2">
+            <nav className="navigation">
+                <ul className="container row">
+                    <li className="mx-2 col">
                         <a href="#about">
                             About Me
                         </a>
                     </li>
-                    <li className="mx-2">
+                    <li className="mx-2 col">
                         <a href="#portfolio">
                             Portfolio
                         </a>
                     </li>
-                    <li className="mx-2">
+                    <li className="mx-2 col">
                     <a href="#contact">
                             Contact
                         </a>
                     </li>
-                    <li className="mx-2">
+                    <li className="mx-2 col">
                     <a href="#resume">
                             Resume
                         </a>
