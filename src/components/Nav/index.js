@@ -2,10 +2,7 @@ import React from "react";
 // import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
-    const {
-        // 
-    } = props;
-
+    
     return (
         <header className="row">
             <h2 className="header-title">
