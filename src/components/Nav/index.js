@@ -2,6 +2,11 @@ import React from "react";
 // import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
+    const {
+        pages = [],
+        setCurrentPage,
+        currentPage
+    } = props;
     
     return (
         <header className="row">

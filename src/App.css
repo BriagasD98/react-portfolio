@@ -3,6 +3,10 @@
   display: flex;
   justify-content: center;
 }
+
+.footer a {
+  
+}
 /* Header & Nav styling */
 .header-title {
   display: flex;
