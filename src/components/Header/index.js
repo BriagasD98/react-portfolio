@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
 
     return (
-        <header>
+        <header className="header">
             <div id="header">
                 <h2 className="header-title">
                     <a href="/">

@@ -5,24 +5,24 @@ import { Link } from "react-router-dom";
 function Nav() {
     
     return (
-            <nav className="navigation">
-                <ul className="container row">
-                    <li className="mx-2 col">
+            <nav className="navbar">
+                <ul className="container navlinks">
+                    <li className="mx-2 navlinks">
                         <Link to="/about">
                             About Me
                             </Link>
                     </li>
-                    <li className="mx-2 col">
+                    <li className="mx-2">
                         <Link to="/portfolio">
                             Portfolio
                         </Link>
                     </li>
-                    <li className="mx-2 col">
+                    <li className="mx-2">
                     <Link to="/contact">
                             Contact
                         </Link>
                     </li>
-                    <li className="mx-2 col">
+                    <li className="mx-2">
                     <Link to="/resume">
                             Resume
                         </Link>
