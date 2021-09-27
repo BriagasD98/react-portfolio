@@ -207,11 +207,18 @@
   text-decoration: none;
   margin-bottom: 0px;
   color: black;
+  font-size: 30px;
 }
 
 .navbar {
   background-color: cadetblue;
   margin-top: 0px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
 }
 
 .navbar li {
@@ -223,7 +230,7 @@
   color: black;
 }
 
-.navlinks nav li a {
+.navlinks nav ul li a {
   display: flex;
   justify-content: center;
   text-decoration: none;
