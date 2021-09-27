@@ -4,6 +4,7 @@ import gopher1 from '../../assets/images/gopher1.png';
 import runBuddy from '../../assets/images/Run-Buddy-1.png';
 import TechBlog from '../../assets/images/Tech-Blog.png';
 import EmpTracker from '../../assets/images/Employee-Tracker.png';
+import SocialAPI from '../../assets/images/Social-API.gif';
 
 function Project() {
     
@@ -14,6 +15,10 @@ function Project() {
             <div className="flex-item box-1" style={{backgroundImage: `url(${gopher2})` }}>
               <a href="https://thawing-fortress-75852.herokuapp.com/">GOPHER 2.0</a>
               <a href="https://github.com/BriagasD98/Gopher-2.0">View Repository</a>
+            </div>
+            <div className="flex-item box-1" style={{backgroundImage: `url(${SocialAPI})` }}>
+              <a href="https://drive.google.com/file/d/1OJpjoI7ItjI7qbtTWb8riJ-nIJVjAl2L/view">SOCIAL NETWORK API</a>
+              <a href="https://github.com/BriagasD98/Social-Network-API">View Repository</a>
             </div>
             <div className="flex-item box-2" style={{backgroundImage: `url(${runBuddy})` }}>
                 <a href="https://briagasd98.github.io/run-buddy/">RUN BUDDY</a>
