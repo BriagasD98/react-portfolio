@@ -1,43 +1,43 @@
-import React, { useEffect, useState } from 'react';
-// import './App.css';
+import React from 'react';
+
+// importing different page components which render unique content
+import Header from './components/Header';
 import Nav from './components/Nav';
+import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import About from './components/About';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
+
+
+// Using "react-router-dom" to render different page content without refreshing entire app
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 function App() {
 
-  const [pages] = useState([
-    { name : 'About' },
-    { name: 'Portfolio' },
-    { name: 'Resume' },
-    { name: 'Contact' }
-  ]);
-
-  const [ currentPage, setCurrentPage ] = useState(pages[0]);
-
-  useEffect(() => {
-    document.title = `David Briagas - ${currentPage.name}`
-  });
-
   return (
-    <div>
-      <Nav
-        pages={pages}
-        setCurrentPage={setCurrentPage}
-        currentPage={currentPage}
-        />
-      <main>
-        {currentPage.name === 'About' && <About />}
-        {currentPage.name === 'Portfolio' && <Project />}
-        {currentPage.name === 'Contact' && <Contact />}
-        {currentPage.name === 'Resume' && <Resume />}
-      </main>
-      <Footer></Footer>
-    </div>
+    <body>
+      <HashRouter>
+        <div>
+          <Header></Header>
+        </div>
+        <div>
+          <Nav></Nav>
+        </div>
+          <main>
+            <Switch>
+              <Route exact={true} path="/" component={About} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/portfolio" component={Project} />
+              <Route exact path="/contact" component={Contact} />
+              <Route exact path="/resume" component={Resume} />
+            </Switch>
+          </main>
+      <div>
+        <Footer></Footer>
+      </div>
+      </HashRouter>
+    </body>
   );
 }
 

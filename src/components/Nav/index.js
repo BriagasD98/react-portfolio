@@ -1,45 +1,34 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Nav(props) {
-    const {
-        pages = [],
-        setCurrentPage,
-        currentPage
-    } = props;
+function Nav() {
     
     return (
-        <header className="row">
-            <h2 className="header-title">
-                <a href="/">
-                    <span>David Briagas</span>
-                </a>
-            </h2>
             <nav className="navigation">
                 <ul className="container row">
                     <li className="mx-2 col">
-                        <a href="#about">
+                        <Link to="/about">
                             About Me
-                        </a>
+                            </Link>
                     </li>
                     <li className="mx-2 col">
-                        <a href="#portfolio">
+                        <Link to="/portfolio">
                             Portfolio
-                        </a>
+                        </Link>
                     </li>
                     <li className="mx-2 col">
-                    <a href="#contact">
+                    <Link to="/contact">
                             Contact
-                        </a>
+                        </Link>
                     </li>
                     <li className="mx-2 col">
-                    <a href="#resume">
+                    <Link to="/resume">
                             Resume
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>
-        </header>
     )
 }
 

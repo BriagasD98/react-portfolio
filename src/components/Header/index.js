@@ -1,16 +1,6 @@
-import React, { useState } from "react";
-import Nav from '../Nav';
+import React from "react";
 
 function Header() {
-
-    const [pages] = useState([
-        { name: 'About Me', id: 'about' },
-        { name: 'Portfolio', id: 'portfolio' },
-        { name: 'Contact', id: 'contact' },
-        { name: 'Resume', id: 'resume' }
-    ]);
-
-    const [currentPage, setCurrentPage] = useState(pages[0]);
 
     return (
         <header>
@@ -20,14 +10,10 @@ function Header() {
                         David Briagas
                     </a>
                 </h2>
-                <Nav
-                    pages={pages}
-                    setCurrentPage={setCurrentPage}
-                    currentPage={currentPage}
-                ></Nav>
             </div>
         </header>
     )
 };
 
 export default Header;
+

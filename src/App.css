@@ -5,8 +5,10 @@
 }
 
 .footer a {
-  
+  display: flex;
+  justify-content: center;
 }
+
 /* Header & Nav styling */
 .header-title {
   display: flex;
