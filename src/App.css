@@ -1,3 +1,93 @@
+/* Portfolio styling */
+.flex-container {
+  /* create flexbox */
+  display: flex;
+  /* instruct it to break onto next line if it runs out of space */
+  flex-wrap: wrap;
+  /* put all unused space between items */
+  justify-content: space-evenly;
+  width: 70%;
+  margin-left: 30%;
+  margin-top: 25px;
+}
+
+/* flex child */
+.flex-item {
+  width: 45%;
+  border: 4px solid rgba(233, 193, 0, 1);
+  background-color: rgba(233, 193, 0, 1);
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  /* background-image: url('../images/david-headshot.jpg'); */
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+/* for text area inside of flex item */
+.flex-item span {
+  /* pushes element to bottom of flex item */
+  margin: auto;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  padding: 10px 5px;
+  text-align: center;
+  display: block;
+}
+
+.flex-item.box-1 {
+  width: 93%;
+  /* background-image: url('../images/Gopher\ hook.png'); */
+}
+
+.box-1 a {
+  margin: auto;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(233, 193, 0, 1);
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.flex-item.box-1 span {
+  color: rgba(233, 193, 0, 1);
+}
+.flex-item.box-2 {
+  /* background-image: url('../images/Run-Buddy-1.png'); */
+  text-decoration: none;
+}
+.box-2 a {
+  text-decoration: none;
+}
+.flex-item.box-3 {
+  /* background-image: url('../images/gopher-deployment.png'); */
+  text-decoration: none;
+}
+.flex-item.box-3 a {
+  text-decoration: none;
+}
+.flex-item.box-4 {
+  /* background-image: url('../images/data-1.jpeg'); */
+}
+.flex-item.box-5 {
+  /* background-image: url('../images/mobile-apps.jpeg'); */
+}
+.flex-item {
+  opacity: 0.5;
+}
+
+.flex-item:hover {
+  opacity: 1.0;
+}
+
+
 /* Footer Styling */
 .footer {
   margin-top: auto;
