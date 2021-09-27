@@ -2,7 +2,7 @@ import React from "react";
 import gitIcon from '../../assets/images/Github-icon.png'
 // import emailIcon from '../../assets/images/email-icon.png'
 import linkedIn from '../../assets/images/linkedin-icon.png'
-import stackOicon from '../../assets/images/stackO-icon.png'
+import stackOicon from '../../assets/images/Stackflow-png.png'
 
 function Footer() {
 

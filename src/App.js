@@ -18,11 +18,13 @@ function App() {
   return (
     <body>
       <HashRouter>
-        <div>
-          <Header></Header>
-        </div>
-        <div>
-          <Nav></Nav>
+        <div className="hero">
+          <div>
+            <Header></Header>
+          </div>
+          <div>
+            <Nav></Nav>
+          </div>
         </div>
           <main>
             <Switch>
