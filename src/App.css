@@ -34,9 +34,15 @@
 }
 
 /* About Me Styling */
+.davidPic {
+  margin: 10px 0 25px 325px;
+  width: 240px;
+  height: 250px;
+}
+
 .about-text p {
   margin: 10px 15px 10px 15px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 /* Portfolio styling */
