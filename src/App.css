@@ -36,6 +36,16 @@
   text-decoration: none;
 }
 
+/* Image Styling */
+.emailIcon {
+  height: 62px;
+  width: 62px;
+}
+
+.linkedinIcon {
+  height: 62px;
+  width: 62px;
+}
 
 
 
