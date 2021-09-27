@@ -138,24 +138,36 @@
   color: rgba(233, 193, 0, 1);
 }
 .flex-item.box-2 {
-  /* background-image: url('../images/Run-Buddy-1.png'); */
   text-decoration: none;
 }
 .box-2 a {
   text-decoration: none;
+  background-color: rgba(233, 193, 0, 1);
+  width: 30%;
 }
 .flex-item.box-3 {
-  /* background-image: url('../images/gopher-deployment.png'); */
   text-decoration: none;
 }
 .flex-item.box-3 a {
   text-decoration: none;
+  background-color: rgba(233, 193, 0, 1);
+  width: 29%;
 }
 .flex-item.box-4 {
-  /* background-image: url('../images/data-1.jpeg'); */
+  text-decoration: none;
+}
+.flex-item.box-4 a {
+  text-decoration: none;
+  background-color: rgba(233, 193, 0, 1);
+  width: 27%;
 }
 .flex-item.box-5 {
-  /* background-image: url('../images/mobile-apps.jpeg'); */
+  text-decoration: none;
+}
+.flex-item.box-5 a {
+  text-decoration: none;
+  background-color: rgba(233, 193, 0, 1);
+  width: 43%;
 }
 .flex-item {
   opacity: 0.5;

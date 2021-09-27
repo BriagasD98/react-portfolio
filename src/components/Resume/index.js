@@ -17,7 +17,7 @@ function Resume() {
                 </a>
             </div>
             <div className="resume-text">
-                <h2>Technical Skills</h2>
+                <h2>Technical Proficiencies</h2>
                 <ul className="skills">
                     <li>React</li>
                     <li>Javascript</li>
