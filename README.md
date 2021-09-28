@@ -24,6 +24,17 @@ projects** that i've worked on as well as links to the **Deployed Applications &
   **Deployed: http://BriagasD98.github.io/react-portfolio** <br/>
   
 ## Preview
+**Preview of my React Portfolio**
+![Screenshot (74)](https://user-images.githubusercontent.com/83102464/135012346-e70bd074-0f77-4b8d-b39e-b4404a457f4d.png)
+<br/>
+![Screenshot (75)](https://user-images.githubusercontent.com/83102464/135012363-ba546544-0fa7-4145-b333-0cacccbca1e9.png)
+![Screenshot (80)](https://user-images.githubusercontent.com/83102464/135012391-fd9c30de-50bc-46b5-b917-e94df5d00dc8.png)
+<br/>
+![Screenshot (78)](https://user-images.githubusercontent.com/83102464/135012414-6558d709-7b3c-4124-8299-3c2a28dabb8e.png)
+<br/>
+![Screenshot (79)](https://user-images.githubusercontent.com/83102464/135012460-6cca48b1-17ab-4d22-9210-2b6126828da9.png)
+
+
 
 <br/>
 
