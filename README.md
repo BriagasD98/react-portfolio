@@ -9,6 +9,8 @@ social media platforms such as **Github, StackOverflow** as well as a **link to 
 page by entering their **name, email and message** into input boxes. In the **Portfolio** page, there are **content tiles** which each display **unique
 projects** that i've worked on as well as links to the **Deployed Applications & Repositories**. <br/>
 
+**Deployed: http://BriagasD98.github.io/react-portfolio** <br/>
+
 ## Table of Contents
   * [Deployment](#Deployment)
   * [Preview](#Preview)
