@@ -2,8 +2,13 @@
 .reach-out {
   display: flex;
   justify-content: center;
+  text-align: center;
   margin-top: 20px;
   font-weight: bold;
+}
+
+.contact-info div {
+  margin-bottom: 50px;
 }
 
 .contact-info li {
@@ -21,6 +26,10 @@
   color: black;
 }
 
+.input-block div {
+  margin: 10px 5px 10px 5px;
+}
+
 #contact-form input {
   border-radius: 10px;
   border-width: 3px;
@@ -35,6 +44,7 @@
 .resume-download p {
   display: flex;
   justify-content: center;
+  text-align: center;
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
@@ -67,16 +77,33 @@
 }
 
 /* About Me Styling */
-.davidPic {
-  margin: 10px 0 25px 325px;
+.davidPic div {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+
+.davidPic img {
+  display: block;
+  margin: 15px auto 15px auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   width: 240px;
   height: 250px;
-  border-radius: 10px;
+}
+
+.about-text {
+  margin-bottom: 80px;
 }
 
 .about-text p {
   margin: 10px 15px 10px 15px;
   font-size: 22px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 /* Portfolio styling */

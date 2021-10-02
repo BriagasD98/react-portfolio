@@ -40,26 +40,28 @@ function Contact() {
         <section id="contact-me">
         <h2 class="secondary-title">Contact Me</h2>
       {/* <h1 data-testid="h1tag">Contact me</h1> */}
-      <form id="contact-form" className="container" onSubmit={handleSubmit}>
-        <div className="row">
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-        </div>
-        <div className="row">
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-        </div>
-        <div className="row">
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
+      <div className="input-block">
+        <form id="contact-form" className="container" onSubmit={handleSubmit}>
+          <div className="row">
+            <label htmlFor="name">Name:</label>
+            <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
           </div>
-        )}
-        <button data-testid="button" className="btn btn-secondary my-2" type="submit">Submit</button>
-      </form>
+          <div className="row">
+            <label htmlFor="email">Email address:</label>
+            <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+          </div>
+          <div className="row">
+            <label htmlFor="message">Message:</label>
+            <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+          </div>
+          {errorMessage && (
+            <div>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
+          <button data-testid="button" className="btn btn-secondary my-2" type="submit">Submit</button>
+        </form>
+      </div>
         <div>
             <h2 className="reach-out">Reach out to me through
                 the following contact methods:

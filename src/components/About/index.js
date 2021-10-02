@@ -7,7 +7,7 @@ function About() {
         <div>
             <h2 class="secondary-title">About Me</h2>
             <div className="davidPic">
-                <img src={DavidB} className="davidPic" alt="David Briagas Smiling" />
+                <img src={DavidB} alt="David Briagas Smiling" />
             </div>
             <div className="about-text">
                 <p> My name is David Briagas and I'm 23 years old. I was born and raised in Houston,Texas. My hobbies
