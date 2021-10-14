@@ -5,6 +5,7 @@ import runBuddy from '../../assets/images/Run-Buddy-1.png';
 import TechBlog from '../../assets/images/Tech-Blog.png';
 import EmpTracker from '../../assets/images/Employee-Tracker.png';
 import SocialAPI from '../../assets/images/Social-API.gif';
+import cherryPicker from '../../assets/images/cherry-picker.png'
 
 function Project() {
     
@@ -12,6 +13,10 @@ function Project() {
         <section id="work">
         <h2 class="secondary-title">Portfolio</h2>
         <div class="flex-container">
+        <div className="flex-item box-1" style={{backgroundImage: `url(${cherryPicker})` }}>
+              <a href="https://thawing-fortress-75852.herokuapp.com/">CHERRY PICKER</a>
+              <a href="https://github.com/nalhomsi/cherry-picker">View Repository</a>
+            </div>
             <div className="flex-item box-1" style={{backgroundImage: `url(${gopher2})` }}>
               <a href="https://thawing-fortress-75852.herokuapp.com/">GOPHER 2.0</a>
               <a href="https://github.com/BriagasD98/Gopher-2.0">View Repository</a>
