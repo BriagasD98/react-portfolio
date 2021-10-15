@@ -14,7 +14,7 @@ function Project() {
         <h2 class="secondary-title">Portfolio</h2>
         <div class="flex-container">
         <div className="flex-item box-1" style={{backgroundImage: `url(${cherryPicker})` }}>
-              <a href="https://thawing-fortress-75852.herokuapp.com/">CHERRY PICKER</a>
+              <a href="https://floating-depths-28820.herokuapp.com/#/">CHERRY PICKER</a>
               <a href="https://github.com/nalhomsi/cherry-picker">View Repository</a>
             </div>
             <div className="flex-item box-1" style={{backgroundImage: `url(${gopher2})` }}>
