@@ -9,10 +9,10 @@ function Resume() {
             <h2 className="secondary-title">Resume</h2>
             <div className="resume-download">
                 <p>View & Download my resume Here !</p>
-                <a href="https://docs.google.com/document/d/1Se__xcj6tmj13td7KKKDri8U7wYOIRi44rDzNvaXYzU/edit?usp=sharing" target="_blank">
+                <a href="https://docs.google.com/document/d/1BHQSK87pGRyUdzCEycDPM5r7ZPkLKtQmK0RNpI-YxsM/edit?usp=sharing" target="_blank">
                     <img src={arrow} className="emailIcon" alt="arrow"></img>
                 </a>
-                <a href="https://docs.google.com/document/d/1Se__xcj6tmj13td7KKKDri8U7wYOIRi44rDzNvaXYzU/edit?usp=sharing" target="_blank">
+                <a href="https://docs.google.com/document/d/1BHQSK87pGRyUdzCEycDPM5r7ZPkLKtQmK0RNpI-YxsM/edit?usp=sharing" target="_blank">
                     <img src={download} className="emailIcon" alt="download my resume"></img>
                 </a>
             </div>

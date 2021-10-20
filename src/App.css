@@ -57,6 +57,11 @@
   margin-top: 0px;
 }
 
+.resume-text div {
+  display: flex;
+  justify-content: center;
+}
+
 .resume-text h2 {
   display: flex;
   justify-content: center;
@@ -74,6 +79,16 @@
   justify-content: center;
   margin: 10px 15px 10px 15px;
   font-size: 25px;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.skills ul li {
+  flex-direction: column;
 }
 
 /* About Me Styling */
